@@ -1,4 +1,4 @@
-# We shouldn't but conditions inside the dependency array of useEffect
+# We shouldn't put conditions inside the dependency array of useEffect
 
 ```
 useEffect(() => {
@@ -17,7 +17,7 @@ useEffect(() => {
   }, [status == "success"]);
 ```
 
-### Path: UserList.tsx
+### Path to the bug: UserList.tsx
 
 ## Possible fix
 
